@@ -1,0 +1,83 @@
+body 
+    margin: 0 auto
+    padding: 0
+.container 
+    margin: 0 auto
+    max-width: 1200px
+    
+.calc
+    margin-top: 10px
+    display: flex
+    align-items: center
+    flex-direction: column
+    &-input
+        display: flex
+        width: 536px
+        
+        background-color: #80a1ac
+        &-text
+            width: 490px
+            margin-right: 10px
+            height: 80px
+            border: none
+            color: white
+            font-size: 28px
+            background-color: #80a1ac
+            font-family: "Noto Sans", sans-serif
+            text-align: right
+        &-undo
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 46px
+            background-color: #80a1ac
+            margin-right: 5px
+            border: none
+            height: 80px
+            font-size: 24px
+            font-family: "Noto Sans", sans-serif
+        
+    &-menu
+        
+        width: 536px
+        height: 300px
+        display: flex
+        justify-content: center
+        margin-top: 5px
+        
+        &-numbers
+            width: 433px
+            display: flex
+            flex-wrap: wrap
+            
+            button
+                width: 139px
+                height: 70px
+                background-color: #b3b3b3
+                margin-right: 5px
+                font-size: 18px
+                border: none
+                font-family: "Noto Sans", sans-serif
+        &-action
+            width: 104px
+            button
+                width: 105px
+                height: 55px
+                background-color: #cebbbb
+                margin-bottom: 5px
+                font-size: 18px
+                border: none
+                font-family: "Noto Sans", sans-serif
+    button:hover
+        background-color: #80a1ac
+        
+        color: white
+        border: none
+        transition-duration: 0.2s
+    button:focus
+        outline: none
+    input:focus
+        outline: none
+        
+
+        

@@ -1,0 +1,124 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.calc {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calc-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 536px;
+  background-color: #80a1ac;
+}
+
+.calc-input-text {
+  width: 490px;
+  margin-right: 10px;
+  height: 80px;
+  border: none;
+  color: white;
+  font-size: 28px;
+  background-color: #80a1ac;
+  font-family: "Noto Sans", sans-serif;
+  text-align: right;
+}
+
+.calc-input-undo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 46px;
+  background-color: #80a1ac;
+  margin-right: 5px;
+  border: none;
+  height: 80px;
+  font-size: 24px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.calc-menu {
+  width: 536px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+}
+
+.calc-menu-numbers {
+  width: 433px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calc-menu-numbers button {
+  width: 139px;
+  height: 70px;
+  background-color: #b3b3b3;
+  margin-right: 5px;
+  font-size: 18px;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.calc-menu-action {
+  width: 104px;
+}
+
+.calc-menu-action button {
+  width: 105px;
+  height: 55px;
+  background-color: #cebbbb;
+  margin-bottom: 5px;
+  font-size: 18px;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.calc button:hover {
+  background-color: #80a1ac;
+  color: white;
+  border: none;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.calc button:focus {
+  outline: none;
+}
+
+.calc input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="calc-input">
+                <input type="text" class="calc-input-text" readonly >
+                <button class="calc-input-undo">DEL</button>
+            </div>
+            <div class="calc-menu">
+                <div class="calc-menu-numbers">
+                    <button class="calc-menu-number" onclick="textInput('1')">1</button>
+                    <button class="calc-menu-number"onclick="textInput('2')">2</button>
+                    <button class="calc-menu-number"onclick="textInput('3')">3</button>
+                    <button class="calc-menu-number"onclick="textInput('4')">4</button>
+                    <button class="calc-menu-number"onclick="textInput('5')">5</button>
+                    <button class="calc-menu-number"onclick="textInput('6')">6</button>
+                    <button class="calc-menu-number"onclick="textInput('7')">7</button>
+                    <button class="calc-menu-number"onclick="textInput('8')">8</button>
+                    <button class="calc-menu-number"onclick="textInput('9')">9</button>
+                    <button class="calc-menu-number"onclick="textInput('0')">0</button>
+                    <button class="calc-menu-number"onclick="textInput('.')">.</button>
+                    <button class="calc-menu-equally">=</button>
+                </div>
+                <div class="calc-menu-action">    
+                    <button class="calc-menu-action-clear" onclick="textClear()">C</button>
+                    <button class="calc-menu-action-mul"  onclick="textInput('*')">*</button>
+                    <button class="calc-menu-action-div" onclick="textInput('/')">/</button>
+                    <button class="calc-menu-action-plus" onclick="textInput('+')">+</button>
+                    <button class="calc-menu-action-minus" onclick="textInput('-')">-</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/calc.js"></script>
+</body>
+</html>
